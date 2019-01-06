@@ -1,6 +1,6 @@
-¥»Arduino¨ç¦¡®w¾A¥Î©óHC04¶W­µªi
+æœ¬Arduinoå‡½å¼åº«é©ç”¨æ–¼HC04è¶…éŸ³æ³¢
 
-¨ç¦¡®w«ü¥O:
-HC04 <ª«¥ó>; //«Ø¥ßª«¥ó
-void set(uint8_t trigpin, uint8_t echopin, unsigned int l_lastTime, unsigned int h_lastTime); //ªì©l¤Æª«¥ó
-void update(void); //°õ¦æ¶W­µªi±½´y
+å‡½å¼åº«æŒ‡ä»¤:
+HC04 <ç‰©ä»¶>; //å»ºç«‹ç‰©ä»¶
+void set(uint8_t trigpin, uint8_t echopin, unsigned int l_lastTime, unsigned int h_lastTime); //åˆå§‹åŒ–ç‰©ä»¶(è§¸ç™¼è…³ä½,å›å‚³è…³ä½,ä½é›»ä½æ™‚é–“,é«˜é›»ä½æ™‚é–“)
+void update(void); //åŸ·è¡Œè¶…éŸ³æ³¢æƒæ
