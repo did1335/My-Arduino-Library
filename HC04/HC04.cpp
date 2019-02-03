@@ -43,11 +43,6 @@ void HC04::update(void)
 	HC04::duration = pulseIn(m_echopin, HIGH);   // 收到高電位時的時間
 	HC04::cm = (duration / 2) / 29.1;         // 將時間換算成距離 cm 或 inch  1/29.1=0.034
 
-	while (cm > 1000) {
-		cm = 1; //太小duration會變無限大
-		break;
-	}
-
 	Serial.print("Distance : ");
 	Serial.print(cm);
 	Serial.print("cm");
